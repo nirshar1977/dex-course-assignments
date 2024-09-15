@@ -1,7 +1,8 @@
 # DEX Course Homework Repository
 
 # Overview
-This repository contains the homework assignments for the DEX (DevOps Experts) course. It includes commands used, screenshots of terminal output, and explanations of each step to help track and review your assignments.
+This repository contains the homework assignments for the DEX (DevOps Experts) course. 
+It includes commands used, screenshots of terminal output, and explanations.
 
 # Contents
 
@@ -15,7 +16,7 @@ This repository contains the homework assignments for the DEX (DevOps Experts) c
                      After upgrading from Ubuntu LTS 22 to LTS 24, running this command will show the new version information and verify 
 		     that the upgrade process was completed successfully.
 
-        Screenshot: ![Alt text](./images/check ubuntu version.png/)
+        
  
 	# Creating Directories:
 
