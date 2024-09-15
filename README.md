@@ -4,12 +4,12 @@
 This repository contains the homework assignments for the DEX (DevOps Experts) course. 
 It includes commands used, screenshots of terminal output, and explanations.
 
+# Note: I didn't use the VB since I had Ubuntu LTS 22 installed, so instead I just upgraded it to the latest LTS 24. 
+
 # Contents
 
 # Commands Used
 
-# I didn't use the VB since I had Ubuntu LTS 22 installed, so instead I just upgraded it to the latest LTS 24. 
-	
  	# Checking Ubuntu Version 
  	
 	Command: lsb_release -a
