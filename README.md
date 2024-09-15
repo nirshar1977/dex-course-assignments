@@ -8,8 +8,10 @@ It includes commands used, screenshots of terminal output, and explanations.
 
 # Commands Used
 
-	# Checking Ubuntu Version (I didn't use the VB since I had Ubuntu LTS 22 installed, so instead I just upgraded it to the latest LTS 24. )
+# I didn't use the VB since I had Ubuntu LTS 22 installed, so instead I just upgraded it to the latest LTS 24. 
 	
+ 	# Checking Ubuntu Version 
+ 	
 	Command: lsb_release -a
  
 	Explanation: This command helps you confirm the current version of Ubuntu installed on your system. 
