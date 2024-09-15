@@ -47,3 +47,31 @@ It includes commands used, screenshots of terminal output, and explanations.
 	each file based on the iteration number.            
 
         ![Alt text](images/copy content into files.png)
+
+        # Find text in files
+	Command: find . -type f -name "*.txt" -exec grep -iH "this is the content" {} +
+
+	or grep -i "this is the content" ~/homework/dir1/*.txt
+
+	Explanation:
+	Sub Cmd1 - find . -type f -name "*.txt": This finds all .txt files under the current directory and its subdirectories.
+	Sub Cmd2 - -exec grep -iH "this is the content" {} +: This runs grep on each found file.
+	Key Options:
+	-i: Makes the search case-insensitive.
+	-H: Ensures grep includes the filename in the output (useful if you are searching across multiple files).
+
+        # Find Files in Directory
+	Command: find ~/homework/ -type f
+        Explenation: Find files within a specific directory  
+	Key Options:
+	/path/to/directory: Replace with the path to the directory where you want to search.
+	-type f: Specifies that you want to find files (not directories).
+
+	# Find files modified within the last 7 days
+ 	Comamnd: find ~/homework/ -type f -name "*.txt" -mtime -7
+  	Explanation:
+	~/homework/: This specifies the directory to search in. The ~ represents the home directory.
+	-type f: This ensures we are looking for files (not directories).
+	-name "*.txt": This filters the results to only .txt files.
+	-mtime -7: This finds files that have been modified within the last 7 days.
+	
