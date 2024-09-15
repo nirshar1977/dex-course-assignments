@@ -18,8 +18,8 @@ It includes commands used, screenshots of terminal output, and explanations.
                      After upgrading from Ubuntu LTS 22 to LTS 24, running this command will show the new version information and verify 
 		     that the upgrade process was completed successfully.
 
-        
- 
+        Screenshot: ![image](https://github.com/user-attachments/assets/b213e6d6-a90c-438d-a63b-9eb8c77a2c6d)
+
 	# Creating Directories:
 
 	Command: mkdir -p ~/homework/{dir1,dir2,dir3}
