@@ -18,7 +18,7 @@ It includes commands used, screenshots of terminal output, and explanations.
                      After upgrading from Ubuntu LTS 22 to LTS 24, running this command will show the new version information and verify 
 		     that the upgrade process was completed successfully.
 
-	![Alt text](https://github.com/user-attachments/assets/b213e6d6-a90c-438d-a63b-9eb8c77a2c6d)
+	![Alt text](images/check ubuntu version.png)
 
 
 	# Creating Directories:
@@ -27,12 +27,16 @@ It includes commands used, screenshots of terminal output, and explanations.
 	
 	Explanation: This command creates a directory structure under ~/homework with subdirectories dir1, dir2, and dir3. 
 	The -p option ensures that parent directories are created as needed.
+
+        ![Alt text](images/create dirs.png)
 	
 	# Creating Files:
 	
 	Command: touch ~/homework/dir1/{file1.txt,file2.txt,file3.txt}
 	
 	Explanation: This command creates three text files in the dir1 directory.
+
+ 	![Alt text](images/create files under directory.png)
 	
 	# Adding Content:
 	
@@ -40,4 +44,6 @@ It includes commands used, screenshots of terminal output, and explanations.
 	
 	Explanation: This loop command automates the process of adding content to multiple files. It iterates over a range and writes specific content to 
 
-	each file based on the iteration number.                                                                                                                                                                               
+	each file based on the iteration number.            
+
+        ![Alt text](images/copy content into files.png)
