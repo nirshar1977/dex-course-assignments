@@ -15,7 +15,9 @@ This repository contains the homework assignments for the DEX (DevOps Experts) c
                      After upgrading from Ubuntu LTS 22 to LTS 24, running this command will show the new version information and verify 
 		     that the upgrade process was completed successfully.
 
-        ![Screenshot from 2024-09-15 16-00-23](https://github.com/user-attachments/assets/59c2fea2-9280-4cf7-b8e1-33f504d435e5)
+        Screenshot:
+
+        ![Checking Ubuntu Version](https://github.com/user-attachments/assets/b9b73565-1c16-45ae-9d16-330a7b833a36)
 
  
 	# Creating Directories:
